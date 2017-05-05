@@ -1,0 +1,31 @@
+{
+  "name": "react-primitives-art",
+  "version": "0.0.1",
+  "description": "Cross-platform interface for react ART library",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rm -rf lib && babel -d lib src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelandrichardson/react-primitives-art.git"
+  },
+  "author": "Leland Richardson <leland.m.richardson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lelandrichardson/react-primitives-art/issues"
+  },
+  "homepage": "https://github.com/lelandrichardson/react-primitives-art#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-art": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
