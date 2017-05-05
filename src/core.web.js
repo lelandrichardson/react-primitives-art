@@ -15,7 +15,7 @@ module.exports = {
   ClippingRectangle,
   Group,
   LinearGradient,
-  Path: Mode.Path,
+  Path,
   Pattern,
   RadialGradient,
   Shape,
