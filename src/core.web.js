@@ -1,25 +1,3 @@
-import {
-  ClippingRectangle,
-  Group,
-  LinearGradient,
-  Path,
-  Pattern,
-  RadialGradient,
-  Shape,
-  Surface,
-  Text,
-  Transform,
-} from 'react-art';
+require("./injection/react-art");
 
-module.exports = {
-  ClippingRectangle,
-  Group,
-  LinearGradient,
-  Path,
-  Pattern,
-  RadialGradient,
-  Shape,
-  Surface,
-  Text,
-  Transform,
-};
+module.exports = require("./ReactPrimitivesArt");
